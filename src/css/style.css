@@ -1,0 +1,31 @@
+/* Estilo Global */
+@import "./global/global.css";
+@import "./global/header.css";
+@import "./global/footer.css";
+
+/* Estilo Utilidades */
+@import "./utilidades/cores.css";
+@import "./utilidades/componentes.css";
+@import "./utilidades/tipografia.css";
+
+/* Estilo Home */
+@import "./home/intro.css";
+@import "./home/apresentacao-mockup.css";
+@import "./home/porque-nos.css";
+@import "./home/separador-propaganda.css";
+@import "./home/noticias.css";
+
+/* Estilo Sobre Nós */
+@import "./sobre-nos/intro.css";
+@import "./sobre-nos/conteudo.css";
+@import "./sobre-nos/MVV.css";
+
+/* Estilo Contato */
+@import "./contato/intro.css";
+@import "./contato/conteudo-contato.css";
+
+/* Estilo Planos */
+@import "./planos/intro.css";
+@import "./planos/vantagens.css";
+@import "./planos/perguntas-frequentes.css";
+@import "./planos/planos-opcao.css";

@@ -1,0 +1,57 @@
+.cards-sobre {
+  margin-top: 60px;
+  margin-bottom: 120px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 40px;
+}
+
+.card-sobre {
+  background: var(--cor-0);
+  border-radius: 9px;
+  padding: 20px;
+  box-shadow: 2px 2px 10px 0px var(--cor-8);
+}
+
+.card-sobre h3 {
+  display: flex;
+  align-items: center;
+}
+
+.card-sobre p {
+  margin-top: 4px;
+}
+
+.titulo-missao:before {
+  content: '';
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background: url("../../assets/icones/missao.svg") no-repeat;
+  margin-right: 10px;
+}
+
+.titulo-visao:before {
+  content: '';
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background: url("../../assets/icones/visao.svg") no-repeat;
+  margin-right: 10px;
+}
+
+.titulo-valores:before {
+  content: '';
+  display: inline-block;
+  width: 38px;
+  height: 34px;
+  background: url("../../assets/icones/valores.svg") no-repeat;
+  margin-right: 10px;
+}
+
+@media (max-width: 800px) {
+  .cards-sobre {
+    grid-template-columns: auto;
+    margin-bottom: 60px;
+  }
+}

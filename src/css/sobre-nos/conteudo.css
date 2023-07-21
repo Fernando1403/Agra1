@@ -1,0 +1,27 @@
+.conteudo-sobre {
+  padding-top: 241px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.conteudo-sobre h1 + p {
+  margin-top: 10px;
+}
+
+.conteudo-sobre img {
+  grid-column: 2;
+}
+
+.conteudo-sobre img + p {
+  grid-column: 1/-1;
+}
+
+@media (max-width: 800px) {
+  .conteudo-sobre {
+    grid-template-columns: 1fr;
+  }
+  .conteudo-sobre img {
+    display: none;
+  }
+}

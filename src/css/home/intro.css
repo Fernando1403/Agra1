@@ -1,0 +1,103 @@
+.intro-bg {
+  background:  linear-gradient(rgba(0,0,0,0.8), rgba(0, 0, 0, 0.8)), url("../../assets/imagens/intro-bg.jpg");
+}
+
+.intro {
+  max-width: 650px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 120px 0px;
+}
+
+.info-contato {
+  color: var(--cor-0);
+  border: 2px solid var(--cor-7);
+  border-radius: 50px;
+  padding: 4px 12px;
+}
+
+.info-contato a {
+  color: var(--cor-p3);
+}
+
+.info-contato a::after {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 8px;
+  margin-left: 4px;
+  background: url("../../assets/setas/seta-direita-verde.svg") no-repeat;
+  transition: transform 0.3s;
+}
+
+.info-contato a:hover::after {
+  transform: translateX(4px);
+}
+
+.titulo-intro {
+  margin-top: 20px;
+}
+
+.texto-intro {
+  margin-top: 32px;
+}
+
+.btns-intro {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 28px;  
+}
+
+.btn-branco {
+  display: inline-block;
+  background: var(--cor-0);
+  padding: 16px 32px;
+  border-radius: 8px;
+  text-transform: uppercase;
+}
+
+.btn-branco:hover {
+  background: var(--cor-2);
+}
+
+.link-sobre {
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 12px 0;
+}
+
+.link-sobre::after {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 13px;
+  margin-left: 4px;
+  background: url("../../assets/setas/seta-direita-branca.svg") no-repeat;
+  transition: transform 0.3s;
+}
+
+.link-sobre:hover::after {
+  transform: translateX(4px);
+}
+
+@media (max-width: 800px) {
+  .intro {
+    padding: 60px 0;
+  }
+  .btns-intro {
+    flex-direction: column;
+    gap: 12px;
+  }
+  .btn-branco {
+    padding: 12px 24px;
+    font-size: 16px;
+  }
+  .link {
+    font-size: 16px;
+  }
+}

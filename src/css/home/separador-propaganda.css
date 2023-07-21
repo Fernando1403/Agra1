@@ -1,0 +1,30 @@
+.separador-propaganda-bg {
+  background: var(--cor-10);
+}
+
+.separador-propaganda {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 40px 0;
+}
+
+.titulo-separador {
+  max-width: 25ch;
+}
+
+.btn-separador {
+  background: var(--cor-0);
+  padding: 16px 32px;
+  border-radius: 8px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 800px) {
+  .titulo-separador {
+    font-size: 1.25rem;
+  }
+  .btn-separador {
+    padding: 8px 16px;
+  }
+}
