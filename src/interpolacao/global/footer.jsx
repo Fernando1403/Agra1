@@ -13,8 +13,8 @@ function Footer(){
           <div className="footer-contato">
             <h3 className="font-2-l-b cor-0">Contato</h3>
             <ul className="font-2-m cor-5">
-              <li><a href="tel:+551199999999">+55 11 9999-9999</a></li>
-              <li><a href="mailto:contato@agra.com">contato@contato.com</a></li>
+              <li><a href="tel:+551199999999">+55 11 94214-9398</a></li>
+              <li><a href="mailto:contato@agra.com">agraanalyze@gmail.com</a></li>
             </ul>
             <div className="footer-redes">
               <a href="/"><img src={instagram} alt="instagram" /></a>

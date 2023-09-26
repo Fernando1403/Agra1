@@ -31,8 +31,8 @@ function Conteudo(){
         </section>
         <section className="contato-informacoes" aria-label="Formas de Contato">
           <h2 className="font-2-l-b">Nossos Contatos</h2>
-          <a href="mailto:contato@contato.com" className="font-2-m email">contato@contato.com</a>
-          <a href="tel:+551199999999" className="font-2-m telefone">+55 11 9999-9999</a>
+          <a href="mailto:agraanalyze@gmail.com" className="font-2-m email">agraanalyze@gmail.com</a>
+          <a href="tel:+5511942149398" className="font-2-m telefone">+55 11 94214-9398</a>
           <div className="contato-redes">
             <a href="/"><img src={instagram} alt="instagram" /></a>
             <a href="/"><img src={facebook} alt="facebook" /></a>
