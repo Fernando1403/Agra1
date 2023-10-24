@@ -9,7 +9,7 @@ function PlanosOpcao(){
         <div className="planos-opcoes">
           <div className="plano-opcao-todos">
               <h3 className="font-1-xl cor-12">BÁSICO</h3>
-              <span className="font-1-xl cor-5">R$ XXX <span className="font-1-xs cor-3">mensal</span></span>
+              <span className="font-1-xl cor-5">Grátis <span className="font-1-xs cor-3">mensal</span></span>
               <ul className="font-2-m cor-11">
                 <li>Cadastro de Dados</li>
                 <li>Sugestões para reduções de custo</li>
@@ -20,7 +20,7 @@ function PlanosOpcao(){
           </div>
           <div className="plano-opcao-todos plano-avancado">
               <h3 className="font-1-xl cor-p3">AVANÇADO</h3>
-              <span className="font-1-xl cor-0">R$ XXX <span className="font-1-xs cor-4">mensal</span></span>
+              <span className="font-1-xl cor-0">R$69,90 <span className="font-1-xs cor-4">mensal</span></span>
               <ul className="font-2-m cor-0">
                  <li>Cadastro de Dados</li>
                 <li>Sugestões para reduções de custo</li>
