@@ -9,7 +9,7 @@ function PlanosOpcao(){
         <div className="planos-opcoes">
           <div className="plano-opcao-todos">
               <h3 className="font-1-xl cor-12">BÁSICO</h3>
-            <span className="font-1-xl cor-0">Grátis <span className="font-1-xs cor-4"></span></span>
+            <span className="font-1-xl cor-1">Grátis <span className="font-1-xs cor-4"></span></span>
               <ul className="font-2-m cor-11">
                 <li>Cadastro de Dados</li>
                 <li>Sugestões para reduções de custo</li>
